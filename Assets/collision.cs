@@ -6,7 +6,7 @@ public class collision : MonoBehaviour
 {
     void OnCollisionEnter(Collision col)
     {
-        if(col.gameObject.name == "Head")
+        if(col.gameObject.tag == "obsticles")
         {
             Debug.Log("Game Over!");
 
